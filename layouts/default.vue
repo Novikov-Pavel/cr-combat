@@ -3,7 +3,7 @@
     <slot />
     <div class="container">
       <div v-for="icons in footerIcons" :for="icons.name">
-        <NuxtLink :to="icons.to" class="footer">
+        <NuxtLink :to="icons.to" class="footer"> 
           <img :src="icons.img" :alt="icons.img" class="footer__image" />
           <p class="footer__name">{{ icons.name }}</p>
         </NuxtLink>
