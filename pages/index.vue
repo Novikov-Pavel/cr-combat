@@ -6,7 +6,7 @@
 </template>
 
 <script setup lang="ts">
-window?.Telegram && window.Telegram.WebApp.disableClosingConfirmation()
+window?.Telegram && window.Telegram.WebApp.enableVerticalSwipes() 
 </script>
 
 <style>
