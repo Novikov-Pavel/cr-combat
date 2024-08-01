@@ -1,7 +1,7 @@
 <template>
   <default>
     <div @touchstart="preventCollapse" class="scrollable-element">
-      <Position />1
+      <Position />
       <WaitList />
     </div>
   </default>
