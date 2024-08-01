@@ -1,7 +1,7 @@
 <template>
   <default>
     <div @touchstart="preventCollapse" class="scrollable-element">
-      <Position />
+      <Position />1
       <WaitList />
     </div>
   </default>
@@ -31,8 +31,5 @@ function preventCollapse(event) {
 <style>
 .scrollable-element {
   overflow-y: scroll;
-  height: 32rem;
-  font-size: 6.25rem;
-  border: 1px solid;
 }
 </style>
