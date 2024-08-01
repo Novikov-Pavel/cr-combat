@@ -1,12 +1,16 @@
 <template>
   <default>
-    <Position />213
+    <Position />sdk
     <WaitList />
   </default>
 </template>
 
 <script setup lang="ts">
-window?.Telegram && window.Telegram.WebApp.disableVerticalSwipes();
+import { initSwipeBehavior } from "@telegram-apps/sdk";
+
+const [swipeBehavior] = initSwipeBehavior();
+
+swipeBehavior.disableVerticalSwipe();
 </script>
 
 <style>
