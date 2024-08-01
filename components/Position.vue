@@ -29,6 +29,7 @@ import dollar from "../assets/icons/dollar.svg";
 
 <style scoped lang="scss">
 .position {
+  margin: 0 24px;
   &__my_position {
     background-color: #811fff;
     border-radius: 20px;
