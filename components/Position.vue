@@ -82,7 +82,6 @@ import dollar from "../assets/icons/dollar.svg";
     font-weight: 400;
     font-size: 16px;
   }
-  margin: 0 24px;
   &__title {
     display: flex;
     justify-content: space-between;
