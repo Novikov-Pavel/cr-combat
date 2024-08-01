@@ -1,12 +1,12 @@
 <template>
   <default>
-    <Position />
+    <Position />213
     <WaitList />
   </default>
 </template>
 
 <script setup lang="ts">
-window?.Telegram && window.Telegram.WebApp.enableVerticalSwipes() 
+window?.Telegram && window.Telegram.WebApp.disableVerticalSwipes();
 </script>
 
 <style>
