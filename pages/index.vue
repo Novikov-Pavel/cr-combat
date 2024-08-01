@@ -1,12 +1,15 @@
 <template>
   <default>
-    <Position />window?.Telegram
+    <Position />
     <WaitList />
   </default>
 </template>
 
 <script setup lang="ts">
-if (window?.Telegram) window.Telegram.WebApp.disableVerticalSwipes();
+if (window?.Telegram) {
+  window.Telegram.WebApp.disableVerticalSwipes();
+  window.Telegram.WebApp.viewportStableHeight = 768;
+}
 </script>
 
 <style>
