@@ -13,7 +13,7 @@ p {
 }
 #__nuxt {
   font-family: "Inter", sans-serif;
-  max-width: 375px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 0;
   background: #0a0a0a;
