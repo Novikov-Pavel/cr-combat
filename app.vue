@@ -6,7 +6,7 @@
 
 <style>
 * {
-  touch-action: none;
+  touch-action: manipulation;
 }
 p {
   margin: 0;
