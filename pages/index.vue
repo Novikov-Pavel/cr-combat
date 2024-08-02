@@ -1,7 +1,9 @@
 <template>
   <default>
-    <Position />
-    <WaitList />
+    <div @wheel.passive.prevent.stop>
+      <Position />
+      <WaitList />
+    </div>
   </default>
 </template>
 
