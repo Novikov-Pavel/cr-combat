@@ -12,6 +12,9 @@ p {
   margin: 0;
 }
 #__nuxt {
+  overflow: auto;
+  -webkit-overflow-scrolling: auto;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
