@@ -1,6 +1,6 @@
 <template>
   <default>
-    <div @wheel.passive.prevent.stop>
+    <div @wheel.passive.prevent.stop="false">
       <Position />
       <WaitList />
     </div>
