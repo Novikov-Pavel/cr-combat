@@ -13,6 +13,7 @@ p {
 }
 #__nuxt {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   font-family: "Inter", sans-serif;
   max-width: 100%;
