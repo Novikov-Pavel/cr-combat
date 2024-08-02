@@ -12,6 +12,7 @@ p {
   margin: 0;
 }
 #__nuxt {
+  display: flex;
   font-family: "Inter", sans-serif;
   max-width: 100%;
   margin: 0 auto;
