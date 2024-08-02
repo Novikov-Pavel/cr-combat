@@ -1,9 +1,7 @@
 <template>
   <default>
-    <div @wheel.prevent @touchmove.prevent @scroll.prevent>
-      <Position />
-      <WaitList />
-    </div>
+    <Position />
+    <WaitList />
   </default>
 </template>
 
